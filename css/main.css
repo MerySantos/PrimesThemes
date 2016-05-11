@@ -15,12 +15,10 @@ button{
 #bg-accion {
 	background-image: url(../img/background/city.jpg) ;
 	background-size: cover;
-	background-position: center;
-}
+	}
 .relleno-accion {
 	color: #fff;
-	padding-top: 40px;
-	
+	padding: 10% 20%;
 }
 .boton {
 	margin: 0px;
@@ -83,7 +81,7 @@ button{
 #contact .container{
 	background: url(../img/background/contactus.jpg);
 	background-size: cover;
-	background-position: center;
+	background-position: top;
 }
 #contact .bg-opacity{
 	background-color: rgba(24, 24, 20, 0.7);
