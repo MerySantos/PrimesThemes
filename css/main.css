@@ -1,0 +1,43 @@
+/*http://ionicons.com/*/
+*{outline: 1px solid rgba(255,0,0,0.3);}
+
+.bghero{ background: url(../img/background/hero.jpg); background-size: cover; height: 100vh; rgba(0,0,0,0.2);/* -webkit-filter:brightness(0.5);*/}
+
+.slogan{ margin-top: 15%; }
+.texto-slogan{padding: 5% 19%;}
+	/*.list-menu a{ color: #FFF; }*/
+}
+/*.list-menu a:hover{ color: #11B4B2; }*/
+
+/*Utilities*/
+
+	/* Paddings */
+	.pd-0{	padding: 0; }
+	.pd-5 { padding: 5%;}
+	.pd-10 { padding: 10%; }
+	.pt-0 { padding-top: 0%;}
+	.pt-5{ padding-top: 5%;}
+	.pt-10{	padding-top: 10%;}
+	.pb-5{ padding-bottom: 5%;}
+	.pl-5{ padding-left: 5%;}
+	.pr-5{ padding-right: 5%;}
+
+
+	.mg-0{ margin: 0;}
+	.mg-3{margin:3%;}
+	.mg-5{margin:5%;}
+	.w-100{ width: 100%;}
+	.lh{ line-height: 1.5;}
+
+	/*colores*/
+	.text-white{ color: white;}
+	.text-gray{ color: #888;}
+	.text-green{ color: #0dc0c0;}
+	.active { color: #0dc0c0;}
+	/*.a-none-decoration{ text-decoration: none;}*/
+	.bg-gray{ background-color: rgb(244, 244, 244);}
+	.bg-img-block {
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center;}
+/*U*/
