@@ -38,8 +38,11 @@
 			margin: 0.2%; font-size: 12px;
 			}
 
+			#pad-responsive {
+				padding-bottom: 5%;
+				padding-top: 5%;
+			}
 		}
-
 	</style>
 
 </head>
@@ -52,12 +55,13 @@
 			<h3 style="margin-left: 0;" class="mg-3"> <i class="ion-android-star-half text-white"></i>PRIMES</h3>
 			</div>
 			<nav class="col-md-6">
-				<ul class=" list-inline list-menu text-center">
-					<li class="mg-3"> <a class=" text-white" href="#home">Home</a></li>
+
+				<ul class=" list-inline list-menu text-">
+					<li class="mg-3"> <a class="text-white" href="#home">Home</a></li>
 					<li class="mg-3"><a class="mg-5 text-white" href="#features">Features</a></li>
-					<li class="mg-3" ><a class=" text-white"href="#portafolio">Portafolio</a></li>
-					<li class="mg-3"> <a class=" text-white" href="#pricing">Pricing</a></li>
-					<li class="mg-3"> <a class=" text-white" href="#contact">Contact </a></li>
+					<li class="mg-3" ><a class="text-white"href="#portfolio">Portafolio</a></li>
+					<li class="mg-3"> <a class="text-white" href="#pricing">Pricing</a></li>
+					<li class="mg-3"> <a class="text-white" href="#contact">Contact </a></li>
 				</ul>
 			</nav>
 		</nav> <!-- 1era row -->
@@ -86,7 +90,7 @@
 		</div>
 	</section> <!-- lorem -->
 
-	<section class="text-center features "><!--  more features -->
+	<section id="features" class="text-center features "><!--  more features -->
 		<div class=" pd-3 bg-gray">
 			<h1 class="mb-3 mt-3"> More Features</h1>
 			<img class="img-responsive mb-3" src="img/laptop-features.png">
@@ -139,8 +143,9 @@
 		</div> <!-- container -->
 	</section> <!-- features -->
 
-	<section class="bg-gray"><!--  portafolio  -->
-		<div id="#portafolio" class="container portafolio pl-5 pr-5">
+
+	<section class="bg-gray" id="portfolio"><!--  portafolio  -->
+		<div class="container portafolio pl-5 pr-5">
 			<div class="row text-center ">
 				<h2 class="text-black mt-3">Portafolio</h2>
 				<p class="pd-3">  sunt in culpa qui officia deserunt mollit anim id est laborum m id est laborum.</p>
@@ -214,7 +219,7 @@
 		</div>
 	</section>
 
-	<section id="package"><!--  choose the package -->
+	<section id="pricing"><!--  choose the package -->
 		<div class="bg-gray">
 			<div class="container">
 				<div class="row">
@@ -350,9 +355,9 @@
 		<div class="container bg-white">
 			<div class="row">
 				<div class="col-xs-12 text-center">
-					<h2 class="pt-5 color-gray">Follow Us!</h2>
-					<p class="pt-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-					<div class="pt-5 pb-5">
+					<h2 class="pt-10 color-gray">Follow Us!</h2>
+					<p class="pt-5 w-70 text-center ml-15">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+					<div class="pt-5 pb-10">
 						<p class=" color-gray f-s"><span class="plr-3 glyphicon ion-social-facebook"></span>
 						<span class="plr-3 glyphicon ion-social-twitter"></span>
 						<span class="plr-3 glyphicon ion-social-linkedin"></span>
@@ -371,7 +376,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-xs-12 text-center text-white">
-					<p class="pad-top-2 pad-bot-2">&copy; primes 2016 - laboratoria.la</p>
+					<p id="pad-responsive" class="pad-top-2 pad-bot-2">&copy; primes 2016 - laboratoria.la</p>
 				</div>
 			</div>
 		</div>
