@@ -59,6 +59,7 @@ i{ color:#079ea7 ; font-size: 4em; }
 
 	.pd-3{padding: 3%;}
 	.mg-0{ margin: 0;}
+	.mb-5{margin-bottom: 5%;}
 	.mg-3{margin:3%;}
 	.mt-3{margin-top: 3%;}
 	.ml-3{margin-left: 3%;}
@@ -203,4 +204,26 @@ i{ color:#079ea7 ; font-size: 4em; }
 	font-size: 20px;
 }
 
+
+@media (max-width:560px)
+{
 	
+	#rell-ac {
+		font-size: 15px;
+		line-height: 25px;
+		padding:10%;
+		margin-top: 8%;
+	}
+	#f-size {font-size: 22px;}
+	#text-pac {font-size: 12px;}
+	#customers img { max-width: 30%;}
+	h3 { font-size: 20px; }
+	#menu-list-portafolio button{ font-size:10.5px; padding: 0.5em;	 }
+	#hero li{
+		margin: 0.2%; font-size: 11px;
+	}
+	#pad-responsive {
+		padding-bottom: 5%;
+		padding-top: 5%;
+	}
+}
