@@ -22,6 +22,8 @@ i{ color:#079ea7 ; font-size: 4em; }
 /*2d323a plomito oscurito*/
 .bghero{ background: url(../img/background/hero.jpg); background-size: cover; /* -webkit-filter:brightness(0.5);*/}
 .bghero i{ font-size: 2em; }
+.list-menu{font-weight: bold;}
+.list-menu a:hover{ color:#3CBADE; text-decoration: none;}
 .slogan{ margin-top: 15%; }
 .texto-slogan{padding: 5% 19%;}
 .texto2-hero a{  background: rgba(255,255,255,0.1); }
@@ -32,12 +34,12 @@ i{ color:#079ea7 ; font-size: 4em; }
 .more-feature >div>div{width: 85%;}
 .more-feature p{ font-size:12px;  }
 .menu-list-portafolio li{padding: 0%;}
-.menu-list-portafolio button{padding: 0.5em 1em;}
+.menu-list-portafolio button{ padding: 0.5em 1em; font-weight: bold;}
 .menu-list-portafolio button:hover{background:#079ea7;color: white; }
 .lista-portafolio>div { padding: 0.5% 1%; }
 .lista-portafolio>div>div { padding: 2% 0; }
 .lista-portafolio img { width: 95%; margin: auto;}
-.load-more button{ background:#c5c3c3; }
+.load-more button{ background:#2d323a; padding: 2% ;}
 
 
 
