@@ -1,12 +1,12 @@
 /*http://ionicons.com/*/
-*{outline: 1px solid rgba(255,0,0,0.3);}
+/**{outline: 1px solid rgba(255,0,0,0.3);}*/
 
 body{ 
 	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif; 
 	font-size: 14px;
 	color: #888;
 }
-h1,h2,h3,h4{
+h1,h2,h3,h4,h5{
 	font-family: Arial;
 	margin: 0;
 	padding: 0;
@@ -15,13 +15,19 @@ button{
 	border: none;
 	padding: 2% 3rem;
 }
-/*Mery*/
-.bghero{ background: url(../img/background/hero.jpg); background-size: cover; height: 100vh; rgba(0,0,0,0.2);/* -webkit-filter:brightness(0.5);*/}
 
+i{ color:#079ea7 ; font-size: 4em; }
+/*#1EE1CD*/
+/*Mery*/
+.bghero{ background: url(../img/background/hero.jpg); background-size: cover; /* -webkit-filter:brightness(0.5);*/}
 .slogan{ margin-top: 15%; }
 .texto-slogan{padding: 5% 19%;}
-}
-
+.texto2-hero a{  background: rgba(255,255,255,0.1); }
+.texto2-hero a:hover{ background: #424242;  color: white; }
+#loremi p{font-size: 13px;}
+.features img{width: 80%; margin: auto;}
+/*.more-feature i{ width: 5%; }*/
+/*.more-feature>div>div{ width: 95%; }*/
 
 /*Utilities*/
 
@@ -37,19 +43,26 @@ button{
 	.pr-5{ padding-right: 5%;}
 
 
+	.pd-3{padding: 3%;}
 	.mg-0{ margin: 0;}
 	.mg-3{margin:3%;}
+	.mr-3{margin-right: 3%;}
+	.mb-3{margin-bottom: 3%;}
 	.mg-5{margin:5%;}
 	.w-100{ width: 100%;}
 	.lh{ line-height: 1.5;}
-
+	.vh-100{height: 100vh; }
+	.d-inlineb{display: inline-block;}
+	.d-inline{display: inline;}
 	/*colores*/
 	.text-white{ color: white;}
+	.text-black{ color: black; }
 	.text-gray{ color: #888;}
 	.text-green{ color: #0dc0c0;}
 	.active { color: #0dc0c0;}
 	/*.a-none-decoration{ text-decoration: none;}*/
 	.bg-gray{ background-color: rgb(244, 244, 244);}
+	.bg-white{ background-color: white;}
 	.bg-img-block {
 		background-size: cover;
 		background-repeat: no-repeat;
@@ -150,3 +163,9 @@ button{
 	transform: scale(1.5);
 }
 
+@media (max-width: 500px) {
+	#hero li{
+		margin: 0.2%; font-size: 12px;
+	}
+
+}
