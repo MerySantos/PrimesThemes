@@ -19,15 +19,27 @@ button{
 i{ color:#079ea7 ; font-size: 4em; }
 /*#1EE1CD*/
 /*Mery*/
+/*2d323a plomito oscurito*/
 .bghero{ background: url(../img/background/hero.jpg); background-size: cover; /* -webkit-filter:brightness(0.5);*/}
+.bghero i{ font-size: 2em; }
 .slogan{ margin-top: 15%; }
 .texto-slogan{padding: 5% 19%;}
 .texto2-hero a{  background: rgba(255,255,255,0.1); }
 .texto2-hero a:hover{ background: #424242;  color: white; }
 #loremi p{font-size: 13px;}
 .features img{width: 80%; margin: auto;}
-/*.more-feature i{ width: 5%; }*/
-/*.more-feature>div>div{ width: 95%; }*/
+.more-feature i{width: 10%;font-size: 2em;}
+.more-feature >div>div{width: 85%;}
+.more-feature p{ font-size:12px;  }
+.menu-list-portafolio li{padding: 0%;}
+.menu-list-portafolio button{padding: 0.5em 1em;}
+.menu-list-portafolio button:hover{background:#079ea7;color: white; }
+.lista-portafolio>div { padding: 0.5% 1%; }
+.lista-portafolio>div>div { padding: 2% 0; }
+.lista-portafolio img { width: 95%; margin: auto;}
+.load-more button{ background:#c5c3c3; }
+
+
 
 /*Utilities*/
 
@@ -46,6 +58,8 @@ i{ color:#079ea7 ; font-size: 4em; }
 	.pd-3{padding: 3%;}
 	.mg-0{ margin: 0;}
 	.mg-3{margin:3%;}
+	.mt-3{margin-top: 3%;}
+	.ml-3{margin-left: 3%;}
 	.mr-3{margin-right: 3%;}
 	.mb-3{margin-bottom: 3%;}
 	.mg-5{margin:5%;}
@@ -66,7 +80,7 @@ i{ color:#079ea7 ; font-size: 4em; }
 	.bg-img-block {
 		background-size: cover;
 		background-repeat: no-repeat;
-		background-position: center;}
+ 		background-position: center;}
 /*U*/
  /*Mery*/
 #bg-accion {
@@ -185,9 +199,4 @@ i{ color:#079ea7 ; font-size: 4em; }
 	font-size: 20px;
 }
 
-@media (max-width: 560px) {
-	#hero li{
-		margin: 0.2%; font-size: 12px;
-	}
-
-}
+	
