@@ -21,6 +21,31 @@
 	<script type="js/jquery-1.12.3.js"></script>
 	<script type=" js/bootstrap.min.js"></script>
 
+	<style>
+		@media (max-width:560px){
+			#rell-ac {
+				font-size: 15px;
+				line-height: 25px;
+				padding:10%;
+				margin-top: 8%;
+			}
+			#f-size {
+				font-size: 22px;
+			}
+			#text-pac {
+				font-size: 12px;
+			}
+			#customers img {
+				max-width: 30%;
+			}
+			h3 {
+				font-size: 20px;
+			}
+			
+		}
+
+	</style>
+
 </head>
 <body>
 
@@ -113,8 +138,8 @@
 		<div id="bg-accion">
 			<div class=container>
 				<div class="row text-center">
-					<h3 class="relleno-accion ">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut </h3>
-					<a class="btn" href="">Call to Accion</a>			
+					<h3 id="rell-ac" class="relleno-accion ">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut </h3>
+					<a class="btn call-ac" href="">Call to Accion</a>			
 				</div>			
 			</div>
 		</div>
@@ -122,77 +147,77 @@
 
 	<section id="package"><!--  choose the package -->
 		<div class="bg-gray">
-		<div class="container">
-		<div class="row">
-			<div class="col-xs-12 text-center pt-2">
-				<h2>Choose the package</h2>
-				<p>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
-			</div>
-		</div>
-		<div class="row">
-			<div class="col-xs-12 text-center">
+			<div class="container">
 				<div class="row">
-					<div class="col-md-4 pad-topbot-2">
-						<div class="content bg-white">
-							<div class="bg-black text-white"><h2 class="pt-5 pb-5">Standard</h2></div>
-							<div class="bg-gray pt-10 pb-10">
-								<p class="display-ib">From</p>
-								<h3 class="display-ib">$45</h3>
-								<p class="display-ib">.99 per month</p>
-								<span class="star"></span>
-							</div>
-							<div>
-								<p class="pt-5 pb-5">Vestibulum est magna</p><hr class="mg-0 pd-0">
-								<p class="pt-5 pb-5">Mauris auctor massa libero</p><hr class="mg-0 pd-0">
-								<p class="pt-5 pb-5">Praesent magna tortor</p><hr class="mg-0 pd-0">
-								<p class="pt-5 pb-5">Cras et fermentum massa</p><hr class="mg-0 pd-0">
-								<div class="pt-5 pb-5"><button class="bg-black"><p class="boton"><strong>Purchase</strong></p></button></div>
-								<hr class="mg-0 pd-0">
-							</div>							
-						</div>
+					<div class="col-xs-12 text-center pt-2">
+						<h2 id="f-size" class="color-gray pt-5">Choose the package</h2>
+						<p id="text-pac">Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
 					</div>
-					<div class="col-md-4 pad-topbot-2">
-						<div class="content bg-white">
-							<div class="bg-azul text-white"><h2 class="pt-5 pb-5">Premium</h2></div>
-							<div class="bg-gray pt-10 pb-10">
-								<p class="display-ib">From</p>
-								<h3 class="display-ib">$75</h3>
-								<p class="display-ib">.00 per month</p>
-								<span class="star"></span>
+				</div>
+				<div class="row">
+					<div class="col-xs-12 text-center">
+						<div class="row">
+							<div class="col-md-4 pad-top-2 pad-bot-10">
+								<div class="content bg-white">
+									<div class="bg-black text-white"><h2 class="pt-5 pb-5">Standard</h2></div>
+									<div class="bg-gray pt-10 pb-10">
+										<p class="display-ib">From</p>
+										<h3 class="display-ib">$45</h3>
+										<p class="display-ib">.99 per month</p>
+										<span class="star"></span>
+									</div>
+									<div>
+										<p class="pt-5 pb-5">Vestibulum est magna</p><hr class="mg-0 pd-0">
+										<p class="pt-5 pb-5">Mauris auctor massa libero</p><hr class="mg-0 pd-0">
+										<p class="pt-5 pb-5">Praesent magna tortor</p><hr class="mg-0 pd-0">
+										<p class="pt-5 pb-5">Cras et fermentum massa</p><hr class="mg-0 pd-0">
+										<div class="pt-5 pb-5"><button class="bg-black"><p class="boton"><strong>Purchase</strong></p></button></div>
+										<hr class="mg-0 pd-0">
+									</div>							
+								</div>
 							</div>
-							<div>
-								<p class="pt-5 pb-5">Vestibulum est magna</p><hr class="mg-0 pd-0">
-								<p class="pt-5 pb-5">Mauris auctor massa libero</p><hr class="mg-0 pd-0">
-								<p class="pt-5 pb-5">Praesent magna tortor</p><hr class="mg-0 pd-0">
-								<p class="pt-5 pb-5">Cras et fermentum massa</p><hr class="mg-0 pd-0">
-								<div class="pt-5 pb-5"><button class="bg-black"><p class="boton"><strong>Purchase</strong></p></button></div>
-								<hr class="mg-0 pd-0">
-							</div>							
+						<div class="col-md-4 pad-top-2 pad-bot-10">
+							<div class="content bg-white">
+								<div class="bg-azul text-white"><h2 class="pt-5 pb-5">Premium</h2></div>
+								<div class="bg-gray pt-10 pb-10">
+									<p class="display-ib">From</p>
+									<h3 class="display-ib">$75</h3>
+									<p class="display-ib">.00 per month</p>
+									<span class="star"></span>
+								</div>
+								<div>
+									<p class="pt-5 pb-5">Vestibulum est magna</p><hr class="mg-0 pd-0">
+									<p class="pt-5 pb-5">Mauris auctor massa libero</p><hr class="mg-0 pd-0">
+									<p class="pt-5 pb-5">Praesent magna tortor</p><hr class="mg-0 pd-0">
+									<p class="pt-5 pb-5">Cras et fermentum massa</p><hr class="mg-0 pd-0">
+									<div class="pt-5 pb-5"><button class="bg-black"><p class="boton"><strong>Purchase</strong></p></button></div>
+									<hr class="mg-0 pd-0">
+								</div>							
+							</div>
 						</div>
-					</div>
-					<div class="col-md-4 pad-topbot-2">
-						<div class="content  bg-white">
-							<div class="bg-black text-white"><h2 class="pt-5 pb-5">Ultimate</h2></div>
-							<div class="bg-gray pt-10 pb-10">
-								<p class="display-ib">From</p>
-								<h3 class="display-ib">$99</h3>
-								<p class="display-ib">.99 per month</p>
-								<span class="star"></span>
+						<div class="col-md-4 pad-top-2 pad-bot-10">
+							<div class="content  bg-white">
+								<div class="bg-black text-white"><h2 class="pt-5 pb-5">Ultimate</h2></div>
+								<div class="bg-gray pt-10 pb-10">
+									<p class="display-ib">From</p>
+									<h3 class="display-ib">$99</h3>
+									<p class="display-ib">.99 per month</p>
+									<span class="star"></span>
+								</div>
+								<div>
+									<p class="pt-5 pb-5">Vestibulum est magna</p><hr class="mg-0 pd-0">
+									<p class="pt-5 pb-5">Mauris auctor massa libero</p><hr class="mg-0 pd-0">
+									<p class="pt-5 pb-5">Praesent magna tortor</p><hr class="mg-0 pd-0">
+									<p class="pt-5 pb-5">Cras et fermentum massa</p><hr class="mg-0 pd-0">
+									<div class="pt-5 pb-5"><button class="bg-black"><p class="boton"><strong>Purchase</strong></p></button></div>
+									<hr class="mg-0 pd-0">
+								</div>							
 							</div>
-							<div>
-								<p class="pt-5 pb-5">Vestibulum est magna</p><hr class="mg-0 pd-0">
-								<p class="pt-5 pb-5">Mauris auctor massa libero</p><hr class="mg-0 pd-0">
-								<p class="pt-5 pb-5">Praesent magna tortor</p><hr class="mg-0 pd-0">
-								<p class="pt-5 pb-5">Cras et fermentum massa</p><hr class="mg-0 pd-0">
-								<div class="pt-5 pb-5"><button class="bg-black"><p class="boton"><strong>Purchase</strong></p></button></div>
-								<hr class="mg-0 pd-0">
-							</div>							
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-	</div>
 	</div>
 	</section>
 
@@ -200,48 +225,50 @@
 		<div class="container bg-white">
 			<div class="row">
 				<div class="col-xs-12 text-center pt-2">
-					<h1>What our customers have to say...</h1>
-					<img src="img/customer.jpg">
-					<p class="pad-top-2 plr-10">Pellentesque sit amet augue a mi luctus lareet ut nec velit. Morbi in fermentum elit. Curabitur pellentesque neque eget diam posuere porta. Aliquam imperdietnulla id scelerisque auctor. Proin egestas mauris vei arcu bibendum ornare</p>
-					<p><strong>- Diana Rosswert</strong></p>
+					<h1 id="f-size" class="pt-5 color-gray">What our customers have to say...</h1>
+					<img id="img-circle" src="img/customer.jpg">
+					<p class="pad-top-2 plr-10">Pellentesque sit amet augue a mi luctus lareet ut nec velit. Morbi in fermentum elit. Curabitur pellentesque neque eget diam posuere porta. Aliquam imperdietnulla id scelerisque auctor. Proin egestas vei bibendum ornare</p>
+					<p class="color-gray"><strong>- Diana Rosswert</strong></p>
 				</div>
 			</div>
 		</div>
 	</section> <!-- customers -->
 
 	<section id="contact">
-		<div class="container">
-			<div class="bg-opacity pad-top-2">
-				<div class="row">
-					<div class="col-xs-12 text-center text-white">
-						<h3 class="pad-top-2">Contact Us</h3>
-						<p class="pad-top-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-md-6 text-white">
-						<div  class="pt-5 pl-5 pb-5">
-							<h3 class="pad-top-2">Send Message</h3>
-							<form>
-								<div  class="pad-top-2"><input class="input-d" type="email" name="email" id="email" placeholder="Email" required="required"/></div>
-								<div  class="pad-top-2"><input class="input-d" type="text" name="subject" id="subject" placeholder="Subject" required="required"/></div>
-								<div  class="pad-top-2"><textarea class="input-d" type="text" placeholder="Message" rows="7" cols="10" required="required" ></textarea></div>
-								<div class="pt-5 pb-5"><button class="bg-azul"><p class="boton"><strong>Submit</strong></p></button></div>
-							</form>
+		<div class="bg-contact">
+			<div class="bg-opacity">
+				<div class="container">
+					<div class="row">
+						<div class="col-xs-12 text-center text-white">
+							<h3 class="pad-top-2">Contact Us</h3>
+							<p class="pad-top-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
 						</div>
 					</div>
-					<div class="col-md-6 text-white">
-						<div  class="pt-5 plr-10">
-							<h3>About us</h3>
-							<p class="pad-top-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-							<h3 class="pad-top-2">Address</h3>
-							<div class="pad-top-2">
-								<span class="glyphicon glyphicon-map-marker"></span>
-								<p class="display-ib">13 Brant Street, Burlington, Ontario, Canada</p>
+					<div class="row">
+						<div class="col-md-6 text-white">
+							<div  class="pt-5 pl-5 pb-5">
+								<h3 class="pad-top-2">Send Message</h3>
+								<form>
+									<div  class="pad-top-2"><input class="input-d" type="email" name="email" id="email" placeholder="Email" required="required"/></div>
+									<div  class="pad-top-2"><input class="input-d" type="text" name="subject" id="subject" placeholder="Subject" required="required"/></div>
+									<div  class="pad-top-2"><textarea class="input-d" type="text" placeholder="Message" rows="7" cols="10" required="required" ></textarea></div>
+									<div class="pt-5 pb-5"><button class="bg-azul"><p class="boton"><strong>Submit</strong></p></button></div>
+								</form>
 							</div>
-							<div class="pad-top-2">
-								<span class="glyphicon glyphicon-earphone"></span>
-								<p class="display-ib">Phone: 0011 222 335 7773</p>
+						</div>
+						<div class="col-md-6 text-white">
+							<div  class="pt-5 plr-10">
+								<h3 id="title-contac">About us</h3>
+								<p id="text-pac" class="pad-top-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+								<h3 id="title-contac" class="pad-top-2">Address</h3>
+								<div id="text-pac" class="pad-top-2">
+									<span class="glyphicon glyphicon-map-marker"></span>
+									<p class="display-ib">13 Brant Street, Burlington, Ontario, Canada</p>
+								</div>
+								<div id="text-pac"class="pad-top-2 pad-bot-10">
+									<span class="glyphicon glyphicon-earphone"></span>
+									<p class="display-ib">Phone: 0011 222 335 7773</p>
+								</div>
 							</div>
 						</div>
 					</div>
@@ -254,14 +281,14 @@
 		<div class="container bg-white">
 			<div class="row">
 				<div class="col-xs-12 text-center">
-					<h2 class="pt-5">Follow Us!</h2>
+					<h2 class="pt-5 color-gray">Follow Us!</h2>
 					<p class="pt-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 					<div class="pt-5 pb-5">
-						<p><span class="pl-2 glyphicon ion-social-facebook"></span>
-						<span class="pl-2 glyphicon ion-social-twitter"></span>
-						<span class="pl-2 glyphicon ion-social-linkedin"></span>
-						<span class="pl-2 glyphicon ion-social-pinterest"></span>
-						<span class="pl-2 glyphicon ion-social-googleplus"></span></p>
+						<p class=" color-gray f-s"><span class="plr-3 glyphicon ion-social-facebook"></span>
+						<span class="plr-3 glyphicon ion-social-twitter"></span>
+						<span class="plr-3 glyphicon ion-social-linkedin"></span>
+						<span class="plr-3 glyphicon ion-social-pinterest"></span>
+						<span class="plr-3 glyphicon ion-social-googleplus"></span></p>
 					</div>
 				</div>
 			</div>
@@ -271,10 +298,12 @@
 </section> <!-- Fin 8 secciones -->
 
 <footer>
-	<div class="container bg-gray-dark">
-		<div class="row">
-			<div class="col-xs-12 text-center text-white">
-				<p class="pad-top-2">&copy; primes 2016 - laboratoria.la</p>
+	<div class="bg-gray-dark">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12 text-center text-white">
+					<p class="pad-top-2 pad-bot-2">&copy; primes 2016 - laboratoria.la</p>
+				</div>
 			</div>
 		</div>
 	</div>	

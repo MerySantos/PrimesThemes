@@ -84,11 +84,30 @@ i{ color:#079ea7 ; font-size: 4em; }
 .boton {
 	margin: 0px;
 }
+.call-ac {
+	padding:1.5%;
+	background-color: rgba(255,255,255,0.2);
+	color:#FFF;
+	border: 0.2px ridge #AAAAAA;
+	border-radius:none;
+}
+.call-ac:hover{
+	background-color: rgba(25,24,24,0.5);
+	color: #FFF;
+	font-weight: bold;
+}
 .pad-top-2{
 	padding-top: 2%;
 }
-.pl-2{
-	padding-left: 3%;
+.pad-bot-2 {
+	padding-bottom: 2%;
+}
+.pad-bot-10 {
+	padding-bottom: 10%;
+}
+.plr-3{
+	padding-left: 1.5%;
+	padding-right: 1.5%
 }
 .pad-topbot-2{
 	padding-top: 2%;
@@ -131,39 +150,42 @@ i{ color:#079ea7 ; font-size: 4em; }
 #customers img{
 	border-radius: 100%;
 	max-width: 9%;
-	margin-top: 60px;
+	margin-top: 5%;
 }
-@media (min-width: 568px) {
-	#customers img {
-		max-width: 20%;
-	}
-	
-}
-#contact .container{
+.bg-contact{
 	background: url(../img/background/contactus.jpg);
 	background-size: cover;
-	background-position: top;
+	background-position: left;
 }
-#contact .bg-opacity{
-	background-color: rgba(24, 24, 20, 0.7);
-	background: rgba(24, 24, 20, 0.7);
-	color: rgba(24, 24, 20, 0.7);
+.bg-opacity{
+	background-color: rgba(24, 24, 20, 0.6);
+	background: rgba(24, 24, 20, 0.6);
+	color: rgba(24, 24, 20, 0.6);
     margin-right: auto;
     margin-left: auto;
 }
 #contact .input-d{
-	background-color: rgba(24, 24, 20, 0.3);
-	background: rgba(24, 24, 20, 0.3);
-	color: rgba(24, 24, 20, 0.3);
+	background-color: rgba(255, 255, 255, 0.1);
+	background: rgba(255, 255, 255, 0.1);
+	color: rgba(255,255, 255, 0.1);
 	border: none;
 	display: block;
-	width:100%;
+	width: 100%;
+	padding-left: 2%;
+  	font-size: 15px;
+  	line-height: 1.5;
 }
 #follow span{
 	transform: scale(1.5);
 }
+.color-gray {
+	color:#595959;
+}
+.f-s {
+	font-size: 20px;
+}
 
-@media (max-width: 500px) {
+@media (max-width: 560px) {
 	#hero li{
 		margin: 0.2%; font-size: 12px;
 	}
